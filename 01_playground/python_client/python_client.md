@@ -25,9 +25,11 @@ Run an LLM with a few lines of code.
 ```python
 import lamini
 
-llm = lamini.Lamini()
+llm = lamini.Lamini(model_name="meta-llama/Meta-Llama-3-8B-Instruct")
 print(llm.generate("How are you?"))
 ```
+
+List of available models: https://lamini-ai.github.io/training/models_list/
 
 <details>
 <summary>Expected Output</summary>
